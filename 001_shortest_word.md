@@ -1,4 +1,4 @@
-# CHALLENGE 001: Shortest Word
+## CHALLENGE 001: Shortest Word
 
 ## Instructions:
 
