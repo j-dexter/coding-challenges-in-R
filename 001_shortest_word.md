@@ -27,11 +27,11 @@ String will never be empty and you do not need to account for different data typ
             str_split(pattern = " ") %>% unlist()
 
         # Empty vector to store counts
-        vector_of_vector <- c()
+        vector_of_counts <- c()
 
         # Loop to get letter count for each word
         for (i in 1:length(word_vector)) {
-            vector_of_counts <- c(vector_of_vector, str_count(word_vector[4]))
+            vector_of_counts <- c(vector_of_counts, str_count(word_vector[i]))
             min_str_count <- vector_of_counts %>% min()
         }
 
