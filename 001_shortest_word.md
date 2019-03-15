@@ -8,7 +8,7 @@ String will never be empty and you do not need to account for different data typ
 
 ## My Solution
 
-**Some Thoughts:** It took me a bit to get this together and it's by know means a perfect solution. But, it works and so time to move on. 
+**Some Thoughts:** It took me a bit to get this together and it's by know means a perfect solution. But, it works and so time to move on. With each new challenge, the goal is to get a solution working, learn along the way to getting my own solution, and then examine solutions 
 
     # Sample string of words
     s <- "bitcoin take over the world maybe who knows perhaps"
