@@ -3,7 +3,7 @@ Repo for storing and tracking my coding-wars challenges.
 
 **My objective is to improve efficiancy and effectiveness of my coding abilities in R.**
 
-This means that in the beginning, I'll be trading efficiancy for pushing towards a solution even if it is not a good one. More specifically, I want to solve each challenge on my own and **then study other solutions to learn to optimize my own coding.**
+This means that in the beginning, I'll be trading efficiancy for pushing towards a solution even if it is not a good one. More specifically, I want to solve each challenge on my own and **then study other solutions to learn and optimize my own coding abilities.**
 
 ### Some Context
 Some time ago I switched from coding primarily in Python, to falling in love with R and using it as my primary language for data science.
