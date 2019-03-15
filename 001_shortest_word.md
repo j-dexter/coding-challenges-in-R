@@ -4,21 +4,37 @@ Simple, given a string of words, return the length of the shortest word(s).
 
 String will never be empty and you do not need to account for different data types.
 
-find_short <- function(s){
 
-    library(stringr)
+# CHALLENGE 001: Shortest Word
 
-    list_of_words <- s %>%
-        str_split(pattern = " ") 
+    # Sample string of words
+    s <- "bitcoin take over the world maybe who knows perhaps"
 
-    list_of_counts <- c()
-    
-    for (i in 1:length(list_of_words[[1]])) {
-        #word_i <- list_of_words[[1]][i]
-        #print(list_of_words[[1]][i])
-        list_of_counts <- c(list_of_counts, str_count(list_of_words[[1]][i]))
-        min_str_count <- list_of_counts %>% min()
+    # Function 
+    find_short <- function(s){
+        # Asseses a string of words and returns the length
+            # of the shortest word
+
+        # Load libraries
+        library(tidyverse)
+        library(stringr)
+
+        # Split into vector of words
+        word_vector <- s %>%
+            str_split(pattern = " ") %>% unlist()
+
+        # Empty vector to store counts
+        vector_of_vector <- c()
+
+        # Loop to get letter count for each word
+        for (i in 1:length(word_vector)) {
+            vector_of_counts <- c(vector_of_vector, str_count(word_vector[4]))
+            min_str_count <- vector_of_counts %>% min()
+        }
+
+        # Return length of shortest word
+        return(min_str_count)   
     }
-    
-    return(min_str_count)   
-}
+
+    # Run function using 's'
+    find_short(s)
