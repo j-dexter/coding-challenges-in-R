@@ -10,20 +10,20 @@ String will never be empty and you do not need to account for different data typ
 
 **Some Thoughts:** It took me a bit to get this together and it's by know means a perfect solution. But, it works and so time to move on. With each new challenge, the goal is to get a solution working, learn along the way to getting my own solution, and then examine solutions 
 
+    # Load libraries
+    library(tidyverse)
+    library(stringr)
+
     # Sample string of words
-    s <- "bitcoin take over the world maybe who knows perhaps"
+    str <- "bitcoin take over the world maybe who knows perhaps"
 
     # Function 
-    find_short <- function(s){
-        # Asseses a string of words and returns the length
+    find_short <- function(string_of_words){
+        # Asseses a string-of-words and return the length
             # of the shortest word
 
-        # Load libraries
-        library(tidyverse)
-        library(stringr)
-
         # Split into vector of words
-        word_vector <- s %>%
+        word_vector <- string_of_words %>%
             str_split(pattern = " ") %>% unlist()
 
         # Empty vector to store counts
@@ -40,4 +40,4 @@ String will never be empty and you do not need to account for different data typ
     }
 
     # Run function using 's'
-    find_short(s)
+    find_short(str)
