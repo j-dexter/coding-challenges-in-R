@@ -1,4 +1,4 @@
-## CHALLENGE 001: Get Middle Character(s)
+## CHALLENGE 002: Get Middle Character(s)
 
 ## Instructions
 
