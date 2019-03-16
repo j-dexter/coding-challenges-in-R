@@ -7,11 +7,11 @@ You are going to be given a word. Your job is to return the middle character of 
 
 ## Problem Solving Framework: Understand -> Plan -> Divide!
 
-## 1) Understand Problem
+### 1) Understand Problem
 
 * Given a word as an input, give the center character(s) as output.
 
-## 2) Plan Solution
+### 2) Plan Solution
 
 * Get/save character count
 * Split word into vector of characters
@@ -20,9 +20,9 @@ You are going to be given a word. Your job is to return the middle character of 
     * even: get center characters
 * Package in function that returns center character(s)
 
-## 3) Divide and Conquer
+### 3) Divide and Conquer
 
-\  
+
 
 # My Solution
 
