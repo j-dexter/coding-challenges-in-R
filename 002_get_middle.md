@@ -24,35 +24,35 @@ You are going to be given a word. Your job is to return the middle character of 
 
 # My Solution
 
-  library(tidyverse)
-  library(stringr)
+      library(tidyverse)
+      library(stringr)
 
-  # Sample string of words
-  odd_str <- "testing"
-  even_str <- "test"
+      # Sample string of words
+      odd_str <- "testing"
+      even_str <- "test"
 
-  get_middle <- function(word_string){
-      # Given a word as an input, give the center character(s) as output.
+      get_middle <- function(word_string){
+         # Given a word as an input, give the center character(s) as output.
 
-      # Get count of characters in word
-      n <- nchar(word_string) 
+         # Get count of characters in word
+         n <- nchar(word_string) 
 
-      # Split string and save characters to vector
-      character_vector <- str_split(word_string, pattern = "") %>% unlist()
+         # Split string and save characters to vector
+         character_vector <- str_split(word_string, pattern = "") %>% unlist()
 
-      # Check if 'n' is even: if so, get center '2' characters 
-      if((n %% 2) == 0) {
-          cnt_chr <- str_c(character_vector[n/2], character_vector[n/2 + 1])
+         # Check if 'n' is even: if so, get center '2' characters 
+         if((n %% 2) == 0) {
+             cnt_chr <- str_c(character_vector[n/2], character_vector[n/2 + 1])
 
-      # Else odd (no remainder): get just the center character
-      } else {
-          cnt_chr <- character_vector[n/2 + 0.5]
-      }
+         # Else odd (no remainder): get just the center character
+         } else {
+             cnt_chr <- character_vector[n/2 + 0.5]
+         }
 
-      # Return center character(s)
-      return(cnt_chr)
-  }
+         # Return center character(s)
+         return(cnt_chr)
+         }
 
-  # Test Function
-  get_middle(even_str)
-  get_middle(odd_str)
+     # Test Function
+     get_middle(even_str)
+     get_middle(odd_str)
