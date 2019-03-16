@@ -22,6 +22,8 @@ You are going to be given a word. Your job is to return the middle character of 
 
 ## 3) Divide and Conquer
 
+\  
+
 # My Solution
 
       library(tidyverse)
