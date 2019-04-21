@@ -2,9 +2,9 @@
 
 # The Sock Merchant challenge from HackerRank
 
-# My Solution
+## My Solution
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
 
     # Load library
     library(dplyr)
