@@ -1,5 +1,5 @@
-## coding-wars-with-R
-Repo for storing and tracking my coding-wars challenges. 
+## coding-challenges-in-R
+Repo for storing and tracking my coding challenges. 
 
 **My objective is to improve efficiancy and effectiveness of my coding abilities in R.**
 
