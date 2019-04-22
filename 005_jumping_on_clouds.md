@@ -40,7 +40,7 @@ Emma must avoid  and . She can win the game with a minimum of jumps: 4
 
 ## MY SOLUTION
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
 
     # Get input
     input <- readLines(con='stdin')
