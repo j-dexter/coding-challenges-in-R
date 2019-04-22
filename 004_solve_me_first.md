@@ -27,7 +27,7 @@ Sample Output
 
 Explanation
 
-The sum of the two integers  and  is computed as: .
+The sum of the two integers  and  is computed as: 2 + 3 = 5.
 
 
     ## MY SOLUTION
