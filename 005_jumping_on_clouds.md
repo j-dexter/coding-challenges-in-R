@@ -53,8 +53,9 @@ Emma must avoid  and . She can win the game with a minimum of jumps: 4
     clouds_splt <- strsplit(clouds_raw, " ")        # Split clouds to strings
     clouds_num  <- as.numeric(unlist(clouds_splt))  # String to integer conversion
 
-    index = 1
-    jumps = 0
+    # Setup counters
+    index = 1  # Tracks movement across cloud index
+    jumps = 0  # Tracks number of jumps
 
     # While Loop for controlling when task is complete
     while (index < n) {
