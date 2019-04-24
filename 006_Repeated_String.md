@@ -46,12 +46,12 @@ The first  letters of the infinite string are abaabaabaa. Because there are  a's
 
 ### Sample Input 1
 
-a
-1000000000000
+    a
+    1000000000000
 
-###Sample Output 1
+### Sample Output 1
 
-1000000000000
+    1000000000000
 
 Explanation 1 
 Because all of the first  letters of the infinite string are a, we print  on a new line.
