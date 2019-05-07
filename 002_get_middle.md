@@ -5,25 +5,6 @@
 You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
 
 
-## Problem Solving Framework: Understand -> Plan -> Divide!
-
-### 1) Understand Problem
-
-* Given a word as an input, give the center character(s) as output.
-
-### 2) Plan Solution
-
-* Get/save character count
-* Split word into vector of characters
-* Check for odd or even and use if-then to:
-    * odd: get center character
-    * even: get center characters
-* Package in function that returns center character(s)
-
-### 3) Divide and Conquer
-
-
-
 # My Solution
 
       library(tidyverse)
