@@ -1,7 +1,7 @@
 ## coding-challenges-in-R
 Repo for storing and tracking my coding challenges. 
 
-## Problem Solving Framework: Understand Problem -> Plan Solution -> Divide + Conquer!
+### Problem Solving Framework: Understand Problem -> Plan Solution -> Divide + Conquer!
 
 **My objective is to improve efficiancy and effectiveness of my coding abilities in R.**
 
